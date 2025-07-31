@@ -4,8 +4,8 @@
  * This class finds and counts all "anomaly periods" in a sequence of temperature changes.
  *
  * Definition of an anomaly period:
- *   ✅ It must be a continuous subarray of at least 3 days.
- *   ✅ The total sum of temperature changes in that subarray must lie within the given inclusive range [low_threshold, high_threshold].
+ *   It must be a continuous subarray of at least 3 days.
+ *   The total sum of temperature changes in that subarray must lie within the given inclusive range [low_threshold, high_threshold].
  */
 public class WeatherAnomalyDetection {
 
@@ -109,9 +109,9 @@ public class WeatherAnomalyDetection {
         // Array: [-1, -2, -3, -4]
         // Valid range: [-10, -5]
         // Subarrays:
-        //  [-1,-2,-3] sum=-6 ✅
-        //  [-2,-3,-4] sum=-9 ✅
-        //  [-1,-2,-3,-4] sum=-10 ✅
+        //  [-1,-2,-3] sum=-6
+        //  [-2,-3,-4] sum=-9
+        //  [-1,-2,-3,-4] sum=-10
         // Expected: 3
         // ===============================
         System.out.println("Case 7 (Expected: 3) => Actual: " +
@@ -122,9 +122,9 @@ public class WeatherAnomalyDetection {
         // Array: [1, 2, 3, 4]
         // Valid range: [0, 100] → everything qualifies if length >=3
         // Valid subarrays:
-        //   [1,2,3] ✅
-        //   [2,3,4] ✅
-        //   [1,2,3,4] ✅
+        //   [1,2,3] 
+        //   [2,3,4] 
+        //   [1,2,3,4] 
         // Expected: 3
         // ===============================
         System.out.println("Case 8 (Expected: 3) => Actual: " +

@@ -505,7 +505,7 @@ public class MazeSolver extends JFrame {
                     // Add to exploration queue
                     queue.add(neighbor);
                     
-                    // Visualize explored cell (unless end point)
+                    // Visualize explored cell (unless end point)                       
                     if (!neighbor.equals(end)) {
                         updateCell(neighbor, CellType.EXPLORED, 5);
                     }
