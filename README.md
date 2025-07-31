@@ -1,4 +1,4 @@
-# 1. Tech Startup Capital Optimization
+# 1.A Tech Startup Capital Optimization========================================================
 
 ## Problem Description
 A tech startup, AlgoStart, needs to maximize its revenue before acquisition by selecting up to `k` distinct projects. Each project has an investment requirement and a revenue gain. The startup begins with initial capital `c` and can only select projects where the investment ≤ current capital. Upon completing a project, the revenue is added to the capital, which can be reinvested in subsequent projects.
@@ -36,7 +36,7 @@ The solution uses a greedy algorithm with optimal project selection:
    ```bash
    javac TechStartupCapitalOptimizer.java
 
-# 1B. Secure Bank PIN Solution
+# 1.B. Secure Bank PIN Solution========================================================
 ## Compilation
 `javac SecureBankPIN.java`
 ## Execution
@@ -50,7 +50,7 @@ Case 5: 2
 Case 6: 3
 
 
-#2 Weather Anomaly Detection Solution
+# 2.A Weather Anomaly Detection Solution========================================================
 ## Compilation
 `javac WeatherAnomalyDetection.java`
 ## Execution
@@ -65,7 +65,7 @@ Case 6: 6
 Case 7: 3
 Case 8: 3
 
-# Cryptarithmetic Puzzle Solution
+# 2.B Cryptarithmetic Puzzle Solution=======================================================
 ## Compilation
 `javac CryptarithmeticSolver.java`
 ## Execution
@@ -79,7 +79,7 @@ SIX + SEVEN = TWELVE: false
 
 
 
-#3 Pattern Sequence Derivation Solution
+# 3.A Pattern Sequence Derivation Solution========================================================
 ## Compilation
 `javac PatternDerivation.java`
 ## Execution
@@ -91,7 +91,7 @@ Case 2: 3000
 Case 3: 10
 Case 4: 4
 
-# Magical Words Power Combination Solution
+# 3.B Magical Words Power Combination Solution========================================================
 ## Compilation
 `javac MagicalWords.java`
 ## Execution
@@ -105,7 +105,7 @@ Case 5: 3
 Case 6: 0
 
 
-# 4 Secure Transmission Solution
+# 4.A Secure Transmission Solution========================================================
 ## Compilation
 `javac SecureTransmission.java`
 ## Execution
@@ -116,12 +116,27 @@ Query 2: false
 Query 3: true
 Query 4: false
 
-# Treasure Hunt
+# 4.B Treasure Hunt========================================================
+## Compilation 
+`javac TreasureHunt.java`
+## Execution
+`java TreasureHunt`
 
 
-# 5 A Maze Solver 
+# 5.A Maze Solver ========================================================
+## Compilation 
+`javac MazeSolver.java`
+## Execution
+`java MazeSolver`
 
-Online Ticket Booking System – Concurrency Control (GUI)
+
+# 5.B Online Ticket Booking System – Concurrency Control (GUI)
+# Compilation
+`javac Question5/*.java `
+# execution
+`java Question5.Main `
+
+
 Overview
 This project implements a simulated online ticket booking system with a graphical user interface (GUI) that demonstrates concurrency control using optimistic and pessimistic locking mechanisms. It simulates multiple users booking seats concurrently while preventing race conditions, using threads, locks, and a queue for incoming booking requests.
 The system visually displays:
@@ -300,4 +315,9 @@ Threading or Locking Issues?
 Make sure you use the buttons as intended (pause before reset, etc.) and avoid manually terminating the program to allow graceful thread shutdown.
 
 
+# 6 Traffic Signal Management System (Multithreaded)
+## Compilation 
+`javac TrafficSignalSystem.java`
+## Execution
+`java TrafficSignalSystem`
 
